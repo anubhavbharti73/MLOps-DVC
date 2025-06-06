@@ -4,4 +4,6 @@
 4. pip install dvc - now we will do 'dvc init' (Create .dvcignore, .dvc)
 5. now make s3 directory 'mkdir s3'
 6. now we do "dvc remote add -d myremote s3"
-7. Next  " dvc add data/
+7. Next  " dvc add data/"
+8. now " dvc commit " and then " dvc push "
+9. do git add-commit-push to add the added file and folder created by dvc in s3 
