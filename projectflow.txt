@@ -7,3 +7,4 @@
 7. Next  " dvc add data/"
 8. now " dvc commit " and then " dvc push "
 9. do git add-commit-push to add the added file and folder created by dvc in s3 
+10. now make change in code_1.py to append new row in data, check changes via "dvc status"
